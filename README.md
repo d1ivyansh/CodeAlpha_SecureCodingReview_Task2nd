@@ -1,6 +1,15 @@
-CodeAlpha
-(Secure Coding Review)
+# CodeAlpha_Secure Coding Review
 
+'Secure coding review is a crucial process aimed at identifying and mitigating security vulnerabilities in software code. While automated tools can assist in this process, manual review by experienced developers and security professionals is essential for uncovering complex vulnerabilities and ensuring comprehensive security coverage. Here's a manual approach to secure coding review:'
+
+Follow this significant for Secure coding                            
+   A. Understand Security Requirements                      
+   B. Review Code Changes                            
+   C. dentify Security Vulnerabilities              
+   D.Perform Code Analysis                   
+
+
+# For an Example 
 Review for Security Vulnerabilities:
 
 •	Use of os.remove(): While os.remove() is a standard function for deleting files in Python, it does not provide a mechanism for recovering deleted files. Consider using safer methods such as moving files to a trash folder instead od permanently deleting them.
